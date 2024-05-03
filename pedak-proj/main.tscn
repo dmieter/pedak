@@ -1,3 +1,24 @@
-[gd_scene format=3 uid="uid://ca1mul576c1gv"]
+[gd_scene load_steps=3 format=3 uid="uid://ca1mul576c1gv"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://do4swiaxrboe1" path="res://textures/research_node.png" id="1_72nk7"]
+[ext_resource type="Texture2D" uid="uid://bynjou5bpboem" path="res://textures/logo1.png" id="2_kq72h"]
+
+[node name="ResearchItem" type="Sprite2D"]
+position = Vector2(517, 301)
+texture = ExtResource("1_72nk7")
+
+[node name="label" type="Label" parent="."]
+offset_left = -41.0
+offset_top = -46.0
+offset_right = 103.0
+offset_bottom = 19.0
+text = "Древние языки 
+Ануннаков"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="logo" type="Sprite2D" parent="."]
+position = Vector2(-80.25, -0.25)
+scale = Vector2(0.488281, 0.535156)
+texture = ExtResource("2_kq72h")
